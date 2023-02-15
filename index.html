@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="zodiac sign based on date range using html option. Output message based on drop-down menu option chosen using javascript ."/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Lajoc Zodiac sign</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Creepster&family=Stylish&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <main>
+    
+    <h1>ZODIAC SIGNS</h1>
+ 
+    <P>CLICK BIRTH RANGE BELOW🔽 TO GET ZODIAC SIGN</P>
+ 
+      <select id="cond"  onchange = "zodiacSignCond()">
+             <option value='default'>CLICK ME</option>
+             <option value='Aries'>March 21 – April 19</option>
+             <option value='Taurus'>April 20 – May 20</option>
+             <option value='Gemini' >May 21 – June 20</option>
+             <option value='Cancer' >June 21 – July 22</option>
+             <option value='Leo' >July 23 – August 22</option>
+             <option value='Virgo' >August 23 – September 22</option>
+             <option value='Libra' >September 23 – October 22</option>
+             <option value='Scorpio' >October 23 – November 21</option>
+             <option value='Saggitarius' >November 22 – December 21</option>
+             <option value='Capricorn' >December 22 – January 19</option>
+             <option value='Aquarius' >January 20 – February 18</option>
+             <option value='Pisces' >February 19 – March 20</option>
+        </select>
+          
+  <p id="zod-sign"></p>     
+  <p id="zod-msg"></p>   
+  
+  </main>
+  
+  <footer>Made by <a href="https://github.com/f-lajoc/Zodiac-sign">Lajoc_devs</a></footer>
+  <script src="script.js"></script>
+  
+</body>
+</html>
