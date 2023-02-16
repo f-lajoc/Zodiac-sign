@@ -97,4 +97,4 @@ Start using 'picture element'(srcset) for Responsiveness in my coming projects
 
 - Cereal, my accountability partner
 
-- [https://github.com/shakur] - His [https://shakuurr.github.io/loveGuide/] inspired me to build this
+- [https://github.com/SHAKUURR] - His [https://shakuurr.github.io/loveGuide/] inspired me to build this
